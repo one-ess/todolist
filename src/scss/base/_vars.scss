@@ -1,0 +1,8 @@
+$fontFamily: "SF-Pro-Display";
+
+$maxWidth: 1920;
+$minWidth: 320;
+$maxWidthContainer: 1330; //+30px добавить для отступов безопасности
+$safePadding: 15;
+$mainColor: #000;
+$containerWidth: $maxWidthContainer + $safePadding; // для миксина adaptiveValue
