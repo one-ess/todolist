@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">ToDo List</header>
+      <main class="page">
+        <div class="container">
+          <div class="todo">
+            <div class="todo__input-inner">
+              <input class="todo__input" type="text" />
+              <button class="todo__add-button" type="button"></button>
+            </div>
+            <select class="todo__select">
+              <option class="todo__option" value="active">активные</option>
+              <option class="todo__option" value="completed">завершённые</option>
+              <option class="todo__option" value="deleted">удалённые</option>
+            </select>
+            <ul class="todo__list" data-list-state="active"></ul>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>

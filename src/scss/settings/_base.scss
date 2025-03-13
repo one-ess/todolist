@@ -1,0 +1,32 @@
+@use "vars" as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $fontFamily;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $mainColor;
+  overflow-x: hidden;
+  min-width: $minWidth + px;
+  background-color: #d8d8d8;
+}
+
+.container {
+  max-width: $maxWidthContainer + px;
+  padding: 0 $safePadding + px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
